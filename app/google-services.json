@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "496961470643",
+    "project_id": "autentikasi-firebase-f84c4",
+    "storage_bucket": "autentikasi-firebase-f84c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496961470643:android:8c160e7559b7c06de4f0c6",
+        "android_client_info": {
+          "package_name": "com.humam.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496961470643-i3mqtoggld852uo33s5chm1hdl533kg1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.humam.myapplication",
+            "certificate_hash": "cf74412e8dc43fc95398d052cb52d7963841895d"
+          }
+        },
+        {
+          "client_id": "496961470643-u3fma0vpb187ogaesdc7dremo5kp1ad9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYwo2I6M6dvDCkXbX5NhMuIc7Khur2Vqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496961470643-u3fma0vpb187ogaesdc7dremo5kp1ad9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

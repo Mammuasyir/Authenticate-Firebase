@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".UpdateEmailActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="7dp"
+        android:visibility="gone"
+        android:id="@+id/card_verifikasi_password">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="22dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Masukkan password anda"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginBottom="30dp"/>
+
+            <EditText
+                android:id="@+id/edt_passsword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:hint="Password sekarang" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Konfirmasi"
+                android:id="@+id/btn_otorisasi_password"
+                android:backgroundTint="@color/material_dynamic_primary80"/>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="7dp"
+        android:visibility="visible"
+        android:id="@+id/card_update_email">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="22dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Masukkan Email Baru"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:layout_marginBottom="30dp"/>
+
+            <EditText
+                android:id="@+id/edt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:hint="Masukkan Email baru Anda" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Konfirmasi"
+                android:id="@+id/btn_update_email"
+                android:backgroundTint="@color/material_dynamic_primary80"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
